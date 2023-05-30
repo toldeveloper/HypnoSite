@@ -1,0 +1,18 @@
+.hero {
+	display: none;
+}
+@media only screen and (max-width: 576px) {
+	.hero-mobile {
+		height: 60% !important;
+        width: 100%;
+	}
+}
+
+@media only screen and (min-width: 576px) {
+	.hero-mobile {
+		display: none;
+	}
+	.hero {
+		display: block;
+	}
+}
