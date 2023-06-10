@@ -1,0 +1,39 @@
+.hero {
+	display: none;
+}
+
+.portrait{
+    display: none;
+}
+
+.card {
+	height: 140px;
+	padding-bottom: rem;
+}
+@media only screen and (max-width: 576px) {
+	.hero-mobile {
+		height: 60% !important;
+		width: 100%;
+	}
+	.card {
+		height: 233px;
+	}
+}
+
+@media only screen and (min-width: 576px) {
+	.hero-mobile {
+		display: none;
+	}
+	.hero {
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	.hidePortrait {
+		display: none;
+	}
+    .portrait {
+        display: block;
+    }
+}
