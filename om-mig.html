@@ -24,6 +24,7 @@
 		<title>Peder Olesgaard</title>
 		<link rel="stylesheet" href="./css/style.css" />
 		<link rel="stylesheet" href="./css/mediaqueries.css" />
+		<script src="./js/script.js" defer></script>
 	</head>
 	<body class="d-flex flex-column min-vh-100">
 		<nav class="navbar navbar-expand-sm bg-body-tertiary fixed-top">
@@ -91,12 +92,15 @@
 					nu i min lægepraksis på halvtid, hvilket giver mig mulighed for at
 					arbejde professionelt med hypnoterapi og personlig coaching.
 				</p>
-				<img src="/images/Portræt.jpg" class="mb-5 w-50 mx-auto hidePortrait" />
+				<img
+					src="/images/Portrait.jpg"
+					class="mb-5 w-50 mx-auto hidePortrait"
+				/>
 			</div>
 			<img
-				src="/images/Portræt.jpg"
+				src="/images/Portrait.jpg"
 				class="portrait ms-5"
-				style="object-fit: cover; width: 100%; height: 100%; max-width: 250px;"
+				style="object-fit: cover; width: 100%; height: 100%; max-width: 250px"
 			/>
 		</section>
 
@@ -127,6 +131,7 @@
 						>Mail</a
 					>
 					<a
+						onclick="displayPhoneNumber()"
 						class="contact-btn text-center"
 						style="
 							background-color: var(--white-bg);
@@ -140,6 +145,13 @@
 						>Telefon</a
 					>
 				</div>
+				<h3
+					id="phoneNumber"
+					style="width: fit-content"
+					class="mx-auto pb-5 hidden"
+				>
+					+45 48 88 88 88
+				</h3>
 			</div>
 			<div style="background-color: var(--dark-blue); height: 5rem"></div>
 		</footer>
