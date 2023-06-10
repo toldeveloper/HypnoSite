@@ -21,11 +21,12 @@
 		/>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 
-		<title>Peder Olesgaard</title>
+		<title>Peder Olesgaard - Forløb</title>
 		<link rel="stylesheet" href="./css/style.css" />
 		<link rel="stylesheet" href="./css/mediaqueries.css" />
+		<script src="./js/script.js" defer></script>
 	</head>
-	<body>
+	<body class="d-flex flex-column min-vh-100">
 		<nav class="navbar navbar-expand-sm bg-body-tertiary fixed-top">
 			<div class="container">
 				<a
@@ -67,41 +68,79 @@
 			</div>
 		</nav>
 
-		<section
-			style="margin-top: 7rem"
-			class="d-flex flex-column gap-4"
-		>
+		<section style="margin-top: 7rem" class="d-flex flex-column gap-4">
 			<section class="container d-flex flex-column gap-3">
-                <div class="row">
-                    <div class="col-md-7 d-flex flex-column gap-3">
-                        <h2 class="fw-bold">Hypnose</h2>
-                        <p>Et forløb vil være individuelt efter den enkeltes behov. </p>
-                        <p>Et typisk forløb kan indeholde tre seancer af en time med en uges mellemrum. Før første konsultation taler jeg helst med patienten i telefonen om problemstilling, og om hvorvidt jeg er den rette til at hjælpe med problemet. </p>
-                        <p>Hvis vi enes om at lave et forløb, sender jeg et spørgeskema, som går ud på, at patienten får lov til at forklare, om problemstillingen og livsforløb og tidligere behandlinger og evt. andre lidelser. Besvarelsen sendes til mig senest dagen før patienten kommer. Så er jeg forberedt, og vi sparer en konsultation, som koster 900 kr.</p>
-                        <p>Hvis intet er forandret efter tre konsultationer, så er jeg ikke den rette behandler. Måske er problemet løst efter tre konsultationer. Hvis ikke tager vi lidt flere efter patientens ønske. Hvis problemet bliver løst i tilstrækkelig grad, er det sjældent, der er tilbage fald. Patienten er altid velkommen til at ringe til mig.</p>
-                    </div>
-                    <div class="col-md-5"></div>
-                </div>
-            </section>
-            <section style="background-color: var(--white-bg);" class="d-flex flex-column py-5 gap-3">
-                <div class="container d-flex flex-column gap-3">
-                    <div class="row">
-                        <div class="col-md-5"></div>
-                        <div class="col-md-7 d-flex flex-column gap-3">
-                            <h2 class="fw-bold">Coaching</h2>
-                            <p>Et forløb vil være individuelt efter den enkeltes behov. </p>
-                            <p>Et typisk forløb kan indeholde tre seancer af en time med en uges mellemrum. Før første konsultation taler jeg helst med patienten i telefonen om problemstilling, og om hvorvidt jeg er den rette til at hjælpe med problemet. </p>
-                            <p>Hvis vi enes om at lave et forløb, sender jeg et spørgeskema, som går ud på, at patienten får lov til at forklare, om problemstillingen og livsforløb og tidligere behandlinger og evt. andre lidelser. Besvarelsen sendes til mig senest dagen før patienten kommer. Så er jeg forberedt, og vi sparer en konsultation, som koster 900 kr.</p>
-                            <p>Hvis intet er forandret efter tre konsultationer, så er jeg ikke den rette behandler. Måske er problemet løst efter tre konsultationer. Hvis ikke tager vi lidt flere efter patientens ønske. Hvis problemet bliver løst i tilstrækkelig grad, er det sjældent, der er tilbage fald. Patienten er altid velkommen til at ringe til mig.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+				<div class="row">
+					<div class="col-md-7 d-flex flex-column gap-3">
+						<h2 class="fw-bold">Hypnose</h2>
+						<p>Et forløb vil være individuelt efter den enkeltes behov.</p>
+						<p>
+							Et typisk forløb kan indeholde tre seancer af en time med en uges
+							mellemrum. Før første konsultation taler jeg helst med patienten i
+							telefonen om problemstilling, og om hvorvidt jeg er den rette til
+							at hjælpe med problemet.
+						</p>
+						<p>
+							Hvis vi enes om at lave et forløb, sender jeg et spørgeskema, som
+							går ud på, at patienten får lov til at forklare, om
+							problemstillingen og livsforløb og tidligere behandlinger og evt.
+							andre lidelser. Besvarelsen sendes til mig senest dagen før
+							patienten kommer. Så er jeg forberedt, og vi sparer en
+							konsultation, som koster 900 kr.
+						</p>
+						<p>
+							Hvis intet er forandret efter tre konsultationer, så er jeg ikke
+							den rette behandler. Måske er problemet løst efter tre
+							konsultationer. Hvis ikke tager vi lidt flere efter patientens
+							ønske. Hvis problemet bliver løst i tilstrækkelig grad, er det
+							sjældent, der er tilbage fald. Patienten er altid velkommen til at
+							ringe til mig.
+						</p>
+					</div>
+					<div class="col-md-5"></div>
+				</div>
+			</section>
+			<section
+				style="background-color: var(--white-bg)"
+				class="d-flex flex-column py-5 gap-3"
+			>
+				<div class="container d-flex flex-column gap-3">
+					<div class="row">
+						<div class="col-md-5"></div>
+						<div class="col-md-7 d-flex flex-column gap-3">
+							<h2 class="fw-bold">Coaching</h2>
+							<p>Et forløb vil være individuelt efter den enkeltes behov.</p>
+							<p>
+								Et typisk forløb kan indeholde tre seancer af en time med en
+								uges mellemrum. Før første konsultation taler jeg helst med
+								patienten i telefonen om problemstilling, og om hvorvidt jeg er
+								den rette til at hjælpe med problemet.
+							</p>
+							<p>
+								Hvis vi enes om at lave et forløb, sender jeg et spørgeskema,
+								som går ud på, at patienten får lov til at forklare, om
+								problemstillingen og livsforløb og tidligere behandlinger og
+								evt. andre lidelser. Besvarelsen sendes til mig senest dagen før
+								patienten kommer. Så er jeg forberedt, og vi sparer en
+								konsultation, som koster 900 kr.
+							</p>
+							<p>
+								Hvis intet er forandret efter tre konsultationer, så er jeg ikke
+								den rette behandler. Måske er problemet løst efter tre
+								konsultationer. Hvis ikke tager vi lidt flere efter patientens
+								ønske. Hvis problemet bliver løst i tilstrækkelig grad, er det
+								sjældent, der er tilbage fald. Patienten er altid velkommen til
+								at ringe til mig.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
 		</section>
 
 		<footer
 			style="background-color: var(--blue); color: white"
-			class="pt-5"
+			class="mt-auto pt-5"
 		>
 			<h2 class="text-center">Kontakt</h2>
 			<div class="container">
@@ -126,6 +165,7 @@
 						>Mail</a
 					>
 					<a
+						onclick="displayPhoneNumber()"
 						class="contact-btn text-center"
 						style="
 							background-color: var(--white-bg);
@@ -139,8 +179,20 @@
 						>Telefon</a
 					>
 				</div>
+				<h3
+					id="phoneNumber"
+					style="width: fit-content"
+					class="mx-auto pb-5 hidden"
+				>
+					+45 48 88 88 88
+				</h3>
 			</div>
-			<div style="background-color: var(--dark-blue); height: 5rem"></div>
+			<div style="background-color: var(--dark-blue); height: 5rem; opacity: 0.3;" >
+				<div class="container d-flex flex-column flex-md-row justify-content-around align-items-center h-100">
+                    <p>© 2023 Peder Olesgaard</p>
+                    <p>Hjemmeside lavet af <a style="font-family: PT Sans Caption; color: white" href="http://toldeveloper.dk">Rasmus Toldevar</a></p>
+                </div>
+			</div>
 		</footer>
 	</body>
 </html>
