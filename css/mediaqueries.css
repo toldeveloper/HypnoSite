@@ -10,13 +10,20 @@
 	height: 140px;
 	padding-bottom: rem;
 }
+
+@media only screen and (max-width: 380px) {
+	.remove-title{
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 576px) {
 	.hero-mobile {
 		height: 60% !important;
 		width: 100%;
 	}
 	.card {
-		height: 233px;
+		height: 200px;
 	}
 }
 
